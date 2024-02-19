@@ -25,10 +25,8 @@ const Navbar = () => {
             <div className="navbar-nav ms-auto py-0">
               <a href="/" className="nav-item nav-link active">Home</a>
               <a href="/about" className="nav-item nav-link">About</a>
-              <a href="services.html" className="nav-item nav-link">Services</a>
-              <a href="blog.html" className="nav-item nav-link">Blog</a>
               <div className="nav-item dropdown">
-                <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                 <div className="dropdown-menu m-0">
                   <a href="destination.html" className="dropdown-item">Mobile Tyre Fitting</a>
                   <a href="tour.html" className="dropdown-item">Mobile Tyre Repair</a>
@@ -42,7 +40,8 @@ const Navbar = () => {
 
                 </div>
               </div>
-              <a href="contact.html" className="nav-item nav-link">Contact</a>
+              <a href="/blogs" className="nav-item nav-link">Blog</a>
+              <a href="/contact" className="nav-item nav-link">Contact</a>
             </div>
             <a href="" className="btn btn-success rounded-pill py-2 px-4 ms-lg-4">Book Now</a>
           </div>
